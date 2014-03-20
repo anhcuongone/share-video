@@ -1,0 +1,619 @@
+2014/03/19 03:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/index
+---
+2014/03/19 03:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/index.php/admin/
+---
+2014/03/19 03:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin
+---
+2014/03/19 03:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:28:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/
+---
+2014/03/19 03:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ads".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/ads')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/ads
+---
+2014/03/19 03:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/index
+---
+2014/03/19 04:19:28 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "select".' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(8): CComponent->__call('select', Array)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(8): CDbCriteria->select()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/inde...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin
+---
+2014/03/19 04:19:45 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "select".' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(8): CComponent->__call('select', Array)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(8): CDbCriteria->select(Array)
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/inde...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin
+---
+2014/03/19 04:19:46 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "select".' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(8): CComponent->__call('select', Array)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(8): CDbCriteria->select(Array)
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/inde...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin
+---
+2014/03/19 04:26:24 [error] [php] Undefined variable: model (C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(12): UserController->render()
+#3 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin
+in C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php (3)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (12)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/03/19 04:26:42 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(12): UserController->render()
+#3 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin
+in C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php (3)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (12)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/03/19 04:40:09 [error] [php] Array to string conversion (C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(7): UserController->render()
+#3 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin
+in C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php (3)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (7)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/03/19 04:56:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getall".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getall')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getall')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/geta...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getall
+---
+2014/03/19 04:56:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll
+---
+2014/03/19 05:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-up.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-up.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-right.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-right.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-left.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-left.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-up.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-up.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/03/19 05:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll
+---
+2014/03/19 05:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getall".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getall')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getall')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/geta...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getall
+---
+2014/03/19 05:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395202829578
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395202844138
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:21:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395202871923
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:21:44 [error] [php] Use of undefined constant source - assumed 'source' (C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(7): UserController->render()
+#3 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/
+in C:\xampp\htdocs\share-video.com\protected\views\admin\user\index.php (15)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (7)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/03/19 05:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395202918649
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:26:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395203174498
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395203183028
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395203197333
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395203304053
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll?_=1395203321864
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com//admin/user/getAll
+---
+2014/03/19 05:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('getAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('getAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/getA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/getAll
+---
+2014/03/19 05:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-up.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-up.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-left.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-left.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-right.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-right.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('GetAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('GetAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/GetA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1395203536204
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/[object Object]".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/[object O...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/[object%20Object]?_=1395203576836
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/[object Object]".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/[object O...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/[object%20Object]?_=1395203586747
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('GetAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('GetAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/GetA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1395203640901
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('GetAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('GetAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/GetA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1395203667949
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GetAll".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('GetAll')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('GetAll')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/GetA...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1395203687039
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-up.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-up.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-left.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-left.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
+2014/03/19 05:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-right.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-right.png
+HTTP_REFERER=http://localhost/share-video.com/admin/
+---
