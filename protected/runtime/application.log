@@ -617,3 +617,921 @@ Stack trace:
 REQUEST_URI=/share-video.com/css/images/icon-right.png
 HTTP_REFERER=http://localhost/share-video.com/admin/
 ---
+2014/04/02 04:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/04/02 04:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin
+---
+2014/04/02 04:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/login
+---
+2014/04/02 04:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/login
+---
+2014/04/02 04:19:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/login
+---
+2014/04/02 04:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/login
+---
+2014/04/02 04:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/admin/login
+---
+2014/04/02 04:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/login
+---
+2014/04/02 04:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 04:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/login
+---
+2014/04/02 04:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 04:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/login
+---
+2014/04/02 04:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:20:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/user/
+---
+2014/04/02 04:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 04:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/login
+---
+2014/04/02 04:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/login
+---
+2014/04/02 04:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/login
+---
+2014/04/02 04:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/index
+---
+2014/04/02 04:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/user/index
+---
+2014/04/02 04:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-up.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-up.png
+HTTP_REFERER=http://localhost/share-video.com/admin/user/index
+---
+2014/04/02 04:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-left.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-left.png
+HTTP_REFERER=http://localhost/share-video.com/admin/user/index
+---
+2014/04/02 04:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-down.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-down.png
+HTTP_REFERER=http://localhost/share-video.com/admin/user/index
+---
+2014/04/02 04:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/icon-right.png".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/icon...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/css/images/icon-right.png
+HTTP_REFERER=http://localhost/share-video.com/admin/user/index
+---
+2014/04/02 04:27:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jqwidgets/jqxinput.js".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('jqwidgets/jqxin...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/jqwidgets/jqxinput.js
+HTTP_REFERER=http://localhost/share-video.com/admin/user/login
+---
+2014/04/02 05:27:24 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "index".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/inde...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/index
+---
+2014/04/02 05:27:30 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:30:49 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:30:50 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:30:50 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:30:50 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:30:51 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:30:51 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(782): CController->renderPartial('login', NULL, true)
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(19): CController->render('login')
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/logi...')
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/share-video.com/admin/user/login
+---
+2014/04/02 05:33:53 [error] [php] Undefined variable: username (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (20)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:34:23 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(23): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (23)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:34:24 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(23): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (23)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:35:14 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(23): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (23)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:35:15 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(23): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (23)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:35:15 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(23): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (23)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:35:15 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(23): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (23)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:40:45 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(24): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (24)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:41:25 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(24): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (24)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:41:46 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(24): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (24)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:42:57 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php(22): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php(24): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UsersController->actionlogin()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (22)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (24)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 05:44:28 [error] [php] Object of class Users could not be converted to string (C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UsersController->runAction()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/login
+in C:\xampp\htdocs\share-video.com\protected\components\UserIdentity.php (23)
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (24)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:08:50 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396411730102
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:17:43 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396412263980
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:17:57 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396412277800
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:24:00 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396412640791
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:26:08 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396412768614
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:29:01 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396412941638
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:31:17 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.logoutUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('logoutUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('logoutUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(209): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\framework\web\auth\CAccessControlFilter.php(132): CWebApplication->getUser()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/log...')
+#13 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/share-video.com/index.php/admin
+HTTP_REFERER=http://localhost/share-video.com/index.php/admin
+---
+2014/04/02 06:32:03 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\share-video.com\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): UserController->actiongetAll()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): UserController->runAction()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UserController->runActionWithFilters()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UserController->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/user/GetAll?_=1396413123130
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UserController.php (13)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/02 06:33:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.hometUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('hometUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('hometUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\protected\views\layouts\main.php(57): CModule->__get('user')
+#5 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\share-video.com\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\share-video.com\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\share-video.com\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\share-video.com\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/share-video.com/index.php
+---
+2014/04/02 06:37:30 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.logoutUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('logoutUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('logoutUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\protected\views\layouts\main.php(57): CModule->__get('user')
+#5 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\share-video.com\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\share-video.com\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\share-video.com\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\share-video.com\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/share-video.com/index.php
+---
+2014/04/02 06:37:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.logoutUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('logoutUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('logoutUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\protected\views\layouts\main.php(57): CModule->__get('user')
+#5 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\share-video.com\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\share-video.com\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\share-video.com\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\share-video.com\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/share-video.com/index.php
+---
+2014/04/02 06:37:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.logoutUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('logoutUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('logoutUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\protected\views\layouts\main.php(57): CModule->__get('user')
+#5 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\share-video.com\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\share-video.com\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\share-video.com\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\share-video.com\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/share-video.com/index.php
+---
+2014/04/02 06:37:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.logoutUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('logoutUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('logoutUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\protected\views\layouts\main.php(57): CModule->__get('user')
+#5 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\share-video.com\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\share-video.com\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\share-video.com\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\share-video.com\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/share-video.com/index.php
+---
+2014/04/02 06:37:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.logoutUrl" is not defined.' in C:\xampp\htdocs\share-video.com\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\auth\CWebUser.php(160): CComponent->__set('logoutUrl', Array)
+#1 C:\xampp\htdocs\share-video.com\framework\YiiBase.php(220): CWebUser->__set('logoutUrl', Array)
+#2 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\htdocs\share-video.com\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\share-video.com\protected\views\layouts\main.php(57): CModule->__get('user')
+#5 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\share-video.com\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\share-video.com\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\share-video.com\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\share-video.com\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\share-video.com\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\share-video.com\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\share-video.com\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/share-video.com/index.php
+---
