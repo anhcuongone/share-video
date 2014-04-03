@@ -104,4 +104,16 @@ class Users extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public function getRoleOptions(){
+    	$dataRole=Yii::app()->db->createCommand()
+    			->select("*")
+    			->from("Roles")
+    			->queryAll();
+    	$data=array();
+    	foreach ($dataRole as $value) {
+    		$data[$value["id"]]=$value["role_name"];
+    	}
+        return $data;
+	}
 }

@@ -63,4 +63,20 @@ class UsersController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+    public function actionadd()
+    {
+        $user=new users;
+        if(isset($_POST['submit'])){
+            $user->username=$_POST["username"];
+            $user->password=crypt($_POST["password"],"21OZ4/WxREgV.");
+            $user->created=time();
+            $user->modified=time();
+
+            $user->save();
+        }
+        
+        $this->render("add",array("user"=>$user));
+
+    }
 }
