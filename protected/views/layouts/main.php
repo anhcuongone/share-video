@@ -37,6 +37,7 @@
     	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxinput.js"></script>
     	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxbuttons.js"></script>
     	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxdropdownlist.js"></script>
+    	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxvalidator.js"></script>
      
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>

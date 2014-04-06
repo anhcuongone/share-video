@@ -32,7 +32,6 @@ class UserIdentity extends CUserIdentity
 	    else
 	    {
 	        $this->_id=$record->id;
-	        //$this->setState('title', $record->title);
 	        $this->errorCode=self::ERROR_NONE;
 	    }
 	    return !$this->errorCode;

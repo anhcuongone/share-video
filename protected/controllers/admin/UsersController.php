@@ -2,7 +2,7 @@
 
 class UsersController extends Controller
 {
-	//public $layout='/';
+	public $layout='admin';
 
 	public function filters()
     {
@@ -14,16 +14,12 @@ class UsersController extends Controller
     public function accessRules()
     {
         return array(
-           array('deny',
-                'actions'=>array('index'),
-                'users'=>array('?'),
-            ),
             array('allow',
-                'actions'=>array('delete'),
+                'actions'=>array('index'),
                 'roles'=>array('admin'),
             ),
             array('deny',
-                'actions'=>array('delete'),
+                'actions'=>array(''),
                 'users'=>array('*'),
             ),
         );
@@ -31,13 +27,23 @@ class UsersController extends Controller
 
 	public function actionIndex()
 	{
-		$this->render('index');
+        $model = new CDbCriteria;
+        $model->alias ="roles";
+        $role=roles::model()->findAll($model);
+		$this->render('index',array("role"=>$role));
 	}
 
 	public function actiongetAll()
     {
         $user=new CDbCriteria;
-        $model=  User::model()->findAll($user);       
+        $model=  Users::model()->findAll($user);  
+        foreach ($model as $value) {
+            if($value->active==0){
+                $value->active="Inactive";
+            }else{
+                $value->active="Active";
+            }
+        }
         echo CJSON::encode($model); 
     }
 
@@ -67,16 +73,70 @@ class UsersController extends Controller
     public function actionadd()
     {
         $user=new users;
+       
         if(isset($_POST['submit'])){
             $user->username=$_POST["username"];
             $user->password=crypt($_POST["password"],"21OZ4/WxREgV.");
-            $user->created=time();
-            $user->modified=time();
+            $user->role=$_POST["role"];
+            $user->active=$_POST["active"];
+            $user->created=date("Y-m-d H:i:s");
+            $user->modified=date("Y-m-d H:i:s");
+            if($user->validate() && $user->save())
+            {
+                echo "Save successfuly";
+            }
+            else{
+                echo "Save not successfuly";
+            }
+        }   
+        //$this->render("add",array("user"=>$user));
+    }
 
-            $user->save();
+    public function actionedit()
+    {
+        $user=new users;
+       
+        if(isset($_POST['submit'])){
+            $user->username=$_POST["username"];
+            $user->password=crypt($_POST["password"],"21OZ4/WxREgV.");
+            $user->role=$_POST["role"];
+            $user->active=$_POST["active"];
+            $user->modified=date("Y-m-d H:i:s");
+            if($user->validate() && $user->save())
+            {
+                echo "Edit successfuly";
+            }
+            else{
+                echo "Edit not successfuly";
+            }
+        }   
+        //$this->render("add",array("user"=>$user));
+    }
+    public function actiondelete($id)
+    {
+        console.log($id);
+        $model=Users::model()->findByPk($id);
+        if($model->delete()){
+            echo "Delete successfuly";
         }
-        
-        $this->render("add",array("user"=>$user));
+        else{
+            echo "Delete not successfuly";
+        }
+    }
 
+    public function actiondeleteAll()
+    {
+        $recoder=0;
+        $count=count($_POST["id"]);
+        $data=$_POST["id"];
+        foreach ($data as $value) {
+            $model=Users::model()->findByPk($value);
+            $recoder=$model->delete();
+        }
+        if ($recoder==1) {
+            echo "Delete ".$count." record successfuly";
+        }else{
+             echo "Delete ".$count." record not successfuly";
+        }
     }
 }

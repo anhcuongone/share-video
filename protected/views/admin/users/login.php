@@ -27,6 +27,3 @@
 		</table>
 	<?php $this->endWidget(); ?>
 </div>
-<div>
-	<a href="<?php echo Yii::app()->request->baseUrl; ?>/admin/users/logout">Logout</a>
-</div>

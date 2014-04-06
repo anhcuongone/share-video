@@ -1,25 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "users".
+ * This is the model class for table "roles".
  *
- * The followings are the available columns in table 'users':
- * @property string $id
- * @property string $username
- * @property string $password
- * @property string $role
- * @property string $created
- * @property string $modified
+ * The followings are the available columns in table 'roles':
+ * @property integer $id
+ * @property string $role_name
  */
-class Users extends CActiveRecord
+class Roles extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
-	public $comfirmpassword;
 	public function tableName()
 	{
-		return 'users';
+		return 'roles';
 	}
 
 	/**
@@ -30,14 +25,11 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password', 'length', 'max'=>50,),
-			array('username, password','required','message'=>'Không được để trống {attribute}'),
-			array('role', 'length', 'max'=>20),
-			array('created, modified', 'safe'),
+			array('role_name', 'required'),
+			array('role_name', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, username, password, role, created, modified', 'safe', 'on'=>'search'),
-			array('comfirmpassword','length', 'max'=>50,),
+			array('id, role_name', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,12 +51,7 @@ class Users extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'username' => 'Username',
-			'password' => 'Password',
-			'role' => 'Role',
-			'created' => 'Created',
-			'modified' => 'Modified',
-			'comfirmpassword'=>'Comfirm Password',
+			'role_name' => 'Role Name',
 		);
 	}
 
@@ -86,12 +73,8 @@ class Users extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id,true);
-		$criteria->compare('username',$this->username,true);
-		$criteria->compare('password',$this->password,true);
-		$criteria->compare('role',$this->role,true);
-		$criteria->compare('created',$this->created,true);
-		$criteria->compare('modified',$this->modified,true);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('role_name',$this->role_name,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -102,22 +85,10 @@ class Users extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Users the static model class
+	 * @return Roles the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
-	}
-
-	public function getRoleOptions(){
-    	$dataRole=Yii::app()->db->createCommand()
-    			->select("*")
-    			->from("Roles")
-    			->queryAll();
-    	$data=array();
-    	foreach ($dataRole as $value) {
-    		$data[$value["id"]]=$value["role_name"];
-    	}
-        return $data;
 	}
 }
