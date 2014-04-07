@@ -12,7 +12,7 @@
                 [
                     {name: 'id', type: 'number' },
                     {name: 'username', type: 'string'},
-                    {name: 'role', type: 'string'},
+                    {name: 'role_name', type: 'string'},
                     {name: 'created' ,type: 'date'},
                     {name: 'modified',type: 'date'},
                     {name: 'active',type: 'string'}
@@ -42,7 +42,7 @@
             columns: [
                 { text: 'ID', datafield: 'id', width: 100 },
                 { text: 'Username', datafield: 'username', width: 180 },
-                { text: 'Role', datafield: 'role', width: 100 },
+                { text: 'Role', datafield: 'role_name', width: 100 },
                 { text: 'Created Date', datafield: 'created', width: 150,cellsformat: 'dd-MM-yyyy h:mm:ss tt '  },
                 { text: 'Modified Date', datafield: 'modified', width: 150, cellsformat: 'dd-MM-yyyy h:mm:ss tt' },
                 { text: 'Active', datafield: 'active', width: 100 },
@@ -56,7 +56,7 @@
                              // get the clicked row's data and initialize the input fields.
                             var dataRecord = $("#jqxgrid").jqxGrid('getrowdata', editrow); 
                             $("#username-edit").val(dataRecord.username);
-                            
+                            $("#id-edit").val(dataRecord.id);
                             $("#role-edit").val(dataRecord.role);
 
                             if ( dataRecord.active =='Inactive') {
@@ -79,6 +79,10 @@
                             success:function(data){
                                 $("#jqxgrid").jqxGrid('updatebounddata');
                                 $("#result").html(data);
+                                $("#error").show();
+                            },
+                            error: function (error) {
+                                $("#result").html(error.responseText);
                                 $("#error").show();
                             },
                         });
@@ -144,6 +148,10 @@
                     $("#error").show();
                     $("#jqxgrid").jqxGrid('updatebounddata');
                 },
+                error: function (error) {
+                    $("#result").html(error.responseText);
+                    $("#error").show();
+                },
                
             });
 
@@ -151,7 +159,29 @@
         });
 
         $("#Save-edit").click(function(event) {
-            alert( $("#active-edit").val());
+            $.ajax({
+                url: '<?php echo Yii::app()->baseUrl; ?>/admin/users/edit',
+                type: 'POST',
+                data: {
+                    id : $("#id-edit").val(),
+                    submit: $("#Save-edit").val(),
+                    username: $("#username-edit").val(),
+                    role: $("#role-edit").val(),
+                    active: $("#active-edit").val()
+                },
+                success:function(data){
+                    $("#result").html(data);
+                    $("#error").show();
+                    $("#jqxgrid").jqxGrid('updatebounddata');
+                },
+                error: function (error) {
+                    $("#result").html(error.responseText);
+                    $("#error").show();
+                },
+               
+            });
+
+            $("#popupWindow_edit").jqxWindow('close');
         }); 
 
         var indexArray=new Array();
@@ -166,6 +196,10 @@
                     $("#result").html(data);
                     $("#error").show();
                     $("#jqxgrid").jqxGrid('updatebounddata');
+                },
+                error: function (error) {
+                    $("#result").html(error.responseText);
+                    $("#error").show();
                 },
             });
             indexArray.length=0;
@@ -200,7 +234,9 @@
         <button type="button" class="btn btn-sm btn-primary" id="addNew">Add New</button>
     </p>
 </div>
+<div class="row" style="margin-left: 1px;">
 
+</div>
 <div class="row" id="error" style="margin-left: 1px;">
     <div class="alert alert-danger" id="result">
         
@@ -218,7 +254,10 @@
     <div style="overflow:hidden; ">
         <table>
             <tr>
-                <td><label>Username: </label></td>
+                <td><input type="hidden" id="id-edit"></td>
+            </tr>
+            <tr>
+                <td><label>Username:<span style="color:red">*</span> </label></td>
                 <td><input type="text" name="username" id="username-edit"></td>
             </tr>
             <tr>
@@ -257,15 +296,15 @@
     <div style="overflow:hidden; ">
         <table>
             <tr>
-                <td><label>Username: </label></td>
+                <td><label>Username:<span style="color:red">*</span> </label></td>
                 <td><input type="text" name="username-add" id="username-add"></td>
             </tr>
             <tr>
-                <td><label>Password: </label></td>
+                <td><label>Password:<span style="color:red">*</span> </label></td>
                 <td><input type="password" name="password-add" id="password-add"></td>
             </tr>
             <tr>
-                <td><label>Confirm Password: </label></td>
+                <td><label>Confirm Password:<span style="color:red">*</span> </label></td>
                 <td><input type="password" name="confirm-password" id="confirm-password"></td>
             </tr>
             <tr>

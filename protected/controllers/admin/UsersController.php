@@ -14,13 +14,22 @@ class UsersController extends Controller
     public function accessRules()
     {
         return array(
-            array('allow',
+            array('deny',
                 'actions'=>array('index'),
+                'users'=>array(''),
+                'message'=>'Access Denied.',
+                //'url'=>'',
+            ),
+
+            array('allow',
+                'actions'=>array('delete'),
                 'roles'=>array('admin'),
+                'message'=>'Access Denied.',
             ),
             array('deny',
-                'actions'=>array(''),
+                'actions'=>array('delete','deleteAll'),
                 'users'=>array('*'),
+                'message'=>"You don't have permission for this action.",
             ),
         );
     }
@@ -35,39 +44,56 @@ class UsersController extends Controller
 
 	public function actiongetAll()
     {
-        $user=new CDbCriteria;
-        $model=  Users::model()->findAll($user);  
-        foreach ($model as $value) {
-            if($value->active==0){
-                $value->active="Inactive";
+       
+        $model=Yii::app()->db->createCommand()
+                    ->select("u.*,r.role_name")
+                    ->from("users u")
+                    ->join("roles r","u.role = r.id")
+                    ->queryAll();    
+        
+        foreach ($model as $key=>$value) {
+            if($value["active"]==0){
+                $model[$key]["active"]="Inactive";
             }else{
-                $value->active="Active";
+                $model[$key]["active"]="Active";
             }
         }
+      
         echo CJSON::encode($model); 
     }
 
     public function actionlogin()
     {
+        $this->layout='/';
+        $model=new users;
+        $error="";
+        $duration=0;
     	if (isset($_POST["submit"])) {
     		$username=$_POST["username"];
     		$password=$_POST["password"];
     		$identity=new UserIdentity($username,$password);
 
-			if($identity->authenticate())
-			{
-		    	Yii::app()->user->login($identity);
+            if(isset($_POST["remember"])){
+                 $duration= 3600*24*30;
+            }
+           
+			if($identity->authenticate()){
+		    	Yii::app()->user->login($identity,$duration);
+                $this->redirect($this->createUrl("admin/users/index"));
 			}
-			else
-		   		echo $identity->errorMessage;
+			else{
+		   		 if(!$identity->errorMessage){
+                    $error="Incorrect username or password.";
+                 }
+            }
     	}
     	
-    	$this->render('login');
+    	$this->render('login',array("model"=>$model,"error"=>$error));
     }
 	public function actionlogout()
 	{
 		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->homeUrl);
+		$this->redirect($this->createUrl("admin/users/login"));
 	}
 
     public function actionadd()
@@ -94,11 +120,10 @@ class UsersController extends Controller
 
     public function actionedit()
     {
-        $user=new users;
+        $user=users::model()->findByPk($_POST["id"]);
        
         if(isset($_POST['submit'])){
             $user->username=$_POST["username"];
-            $user->password=crypt($_POST["password"],"21OZ4/WxREgV.");
             $user->role=$_POST["role"];
             $user->active=$_POST["active"];
             $user->modified=date("Y-m-d H:i:s");

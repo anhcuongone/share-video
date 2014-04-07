@@ -30,6 +30,7 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+
 			array('username, password', 'length', 'max'=>50,),
 			array('username, password','required','message'=>'Không được để trống {attribute}'),
 			array('role', 'length', 'max'=>20),
@@ -49,6 +50,7 @@ class Users extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'roles'=>array(self::BELONGS_TO,'roles','id'),
 		);
 	}
 

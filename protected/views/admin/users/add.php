@@ -28,6 +28,7 @@
     'enableAjaxValidation'=>true,
     'enableClientValidation'=>true,
 	)); ?>
+	<?php echo $form->errorSummary($user); ?>
 	    <table style="width: 50%;" class="table table-striped table-bordered table-hover">
 			<tr>
 				<td><?php echo $form->labelEx($user,'username: ');?></td>

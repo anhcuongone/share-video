@@ -29,11 +29,15 @@ class UserIdentity extends CUserIdentity
 	    {
 	        $this->errorCode=self::ERROR_PASSWORD_INVALID;
 	    }
+	    elseif ($record->active==0) {
+	    	$this->errorCode=self::ERROR_USERNAME_INVALID;
+	    }
 	    else
 	    {
 	        $this->_id=$record->id;
 	        $this->errorCode=self::ERROR_NONE;
 	    }
+	    
 	    return !$this->errorCode;
 	}
 	 
