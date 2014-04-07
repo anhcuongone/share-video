@@ -114,7 +114,6 @@ class UsersController extends Controller
     }
     public function actiondelete($id)
     {
-        console.log($id);
         $model=Users::model()->findByPk($id);
         if($model->delete()){
             echo "Delete successfuly";

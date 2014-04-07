@@ -5645,3 +5645,296 @@ Stack trace:
 REQUEST_URI=/share-video.com/admin/users/deleteAll
 in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (130)
 in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:58:51 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:130)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#1 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/deleteAll
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (130)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:58:52 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:130)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#1 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/deleteAll
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (130)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:58:52 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:130)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#1 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/deleteAll
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (130)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:58:52 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:130)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#1 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/deleteAll
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (130)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:01 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:04 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:05 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:05 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:05 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:10 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:10 [error] [php] Use of undefined constant console - assumed 'console' (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:117)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\share-video.com\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#6 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#9 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#10 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/delete?id=3
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (117)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 19:59:50 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php:129)
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#1 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\share-video.com\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\share-video.com\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 C:\xampp\htdocs\share-video.com\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\share-video.com\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\share-video.com\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#7 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): UsersController->run()
+#8 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\share-video.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video.com/admin/users/deleteAll
+in C:\xampp\htdocs\share-video.com\protected\controllers\admin\UsersController.php (129)
+in C:\xampp\htdocs\share-video.com\index.php (13)
+2014/04/06 20:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/ind...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/users/index.html
+HTTP_REFERER=http://localhost/share-video.com/admin/users/index
+---
+2014/04/06 20:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forms.html".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('forms.html')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('forms.html')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/for...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/users/forms.html
+HTTP_REFERER=http://localhost/share-video.com/admin/users/index
+---
+2014/04/06 20:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tables.html".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('tables.html')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('tables.html')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/tab...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/users/tables.html
+HTTP_REFERER=http://localhost/share-video.com/admin/users/index
+---
+2014/04/07 03:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/fonts/fontawesome-webfont.woff?v=4.0.3
+HTTP_REFERER=http://localhost/share-video.com/admin/users/login
+---
+2014/04/07 03:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/fonts/fontawesome-webfont.ttf?v=4.0.3
+HTTP_REFERER=http://localhost/share-video.com/admin/users/login
+---
+2014/04/07 03:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.svg".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/fonts/fontawesome-webfont.svg?v=4.0.3
+HTTP_REFERER=http://localhost/share-video.com/admin/users/login
+---
+2014/04/07 03:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/fonts/fontawesome-webfont.woff?v=4.0.3
+HTTP_REFERER=http://localhost/share-video.com/admin/users/login
+---
+2014/04/07 03:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/fonts/fontawesome-webfont.ttf?v=4.0.3
+HTTP_REFERER=http://localhost/share-video.com/admin/users/login
+---
+2014/04/07 03:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.svg".' in C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/share-video.com/fonts/fontawesome-webfont.svg?v=4.0.3
+HTTP_REFERER=http://localhost/share-video.com/admin/users/login
+---
