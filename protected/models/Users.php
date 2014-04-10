@@ -38,7 +38,6 @@ class Users extends CActiveRecord
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, username, password, role, created, modified', 'safe', 'on'=>'search'),
-			array('comfirmpassword','length', 'max'=>50,),
 		);
 	}
 
@@ -50,7 +49,7 @@ class Users extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'roles'=>array(self::BELONGS_TO,'roles','id'),
+			'roles'=>array(self::BELONGS_TO,'roles','role'),
 		);
 	}
 

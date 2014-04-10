@@ -1,13 +1,15 @@
 <script type="text/javascript">
     $(document).ready(function(){
-
+        
         var url ="<?php echo Yii::app()->request->baseUrl; ?>/admin/users/getAll";
+       
         var source =
             {
                 url: url ,
                 datatype: "json",
                 //pagenum: 3,
                 pagesize: 15,
+                async: false,
                 datafields:
                 [
                     {name: 'id', type: 'number' },
@@ -17,6 +19,7 @@
                     {name: 'modified',type: 'date'},
                     {name: 'active',type: 'string'}
                 ],
+                
             };
        
         $("#username-edit").jqxInput({placeHolder: "Input your username", height: 35, width: 300, theme:'bootstrap'});
@@ -26,6 +29,14 @@
         $("#Save-edit").jqxButton({ width: '100', height:25, theme: 'ui-le-frog' });
 
         var dataAdapter = new $.jqx.dataAdapter(source);
+
+
+         $("#btn-search").click(function () {
+                var look=$("#txt-search").val();
+                source.url = "<?php echo Yii::app()->request->baseUrl; ?>/admin/users/search?look="+look;
+                dataAdapter.dataBind();
+        });
+
         $("#jqxgrid").jqxGrid(
         {
             width: 970,
@@ -34,11 +45,12 @@
             autoheight: true,
             theme:'ui-redmond',
             pagesizeoptions: ['10', '15', '20', '25', '30'],
-            ready: function () {
-                    // $("#jqxgrid").jqxGrid('sortby', 'id', 'asc');
-
-                },
             selectionmode: 'checkbox',
+            ready: function () {
+                    
+                },
+
+            
             columns: [
                 { text: 'ID', datafield: 'id', width: 100 },
                 { text: 'Username', datafield: 'username', width: 180 },
@@ -113,6 +125,8 @@
         $("#Cancel-add").jqxButton({  width: '100', height:25, theme: 'ui-le-frog' });
         $("#Save-add").jqxButton({ width: '100', height:25, theme: 'ui-le-frog' });
 
+        $("#txt-search").jqxInput({placeHolder: "Search for username", height: 25, width: 250, theme:'bootstrap'});
+
         $("#popupWindow_add").jqxWindow({
                 width: 450, resizable: false,  isModal: true, autoOpen: false, cancelButton: $("#Cancel-add"), modalOpacity: 0.01,theme:'summer'         
             });
@@ -132,7 +146,6 @@
 <script type="text/javascript">
     jQuery(document).ready(function($) {
         $("#Save-add").click(function(event) {
-            
             $.ajax({
                 url: '<?php echo Yii::app()->baseUrl; ?>/admin/users/add',
                 type: 'POST',
@@ -140,6 +153,7 @@
                     submit: $("#Save-add").val(),
                     username: $("#username-add").val(),
                     password: $("#password-add").val(),
+                    confirmPassword: $("#confirm-password").val(),
                     role: $("#role-add").val(),
                     active: $("#active-add").val()
                 },
@@ -178,14 +192,19 @@
                     $("#result").html(error.responseText);
                     $("#error").show();
                 },
-               
             });
 
             $("#popupWindow_edit").jqxWindow('close');
-        }); 
+        });       
 
         var indexArray=new Array();
         $("#deleteAll").click(function(event) {
+            if (indexArray=='') {
+                $("#result").html("Please select at least one line");
+                $("#error").show();
+                return false;
+            };
+
             $.ajax({
                 url: '<?php echo Yii::app()->baseUrl; ?>/admin/users/deleteAll',
                 type: 'POST',
@@ -193,8 +212,7 @@
                     id: indexArray
                 },
                 success:function(data){
-                    $("#result").html(data);
-                    $("#error").show();
+                   
                     $("#jqxgrid").jqxGrid('updatebounddata');
                 },
                 error: function (error) {
@@ -232,7 +250,11 @@
     <p>
         <button type="button" class="btn btn-sm btn-primary" id="deleteAll">Delete</button>
         <button type="button" class="btn btn-sm btn-primary" id="addNew">Add New</button>
-    </p>
+        <span style="padding-left:50px;">
+            <input type="text" name="txt-search" id="txt-search">
+            <button type="button" class="btn btn-sm btn-primary" id="btn-search" value="Search">Search</button>
+        </span>
+    </p>    
 </div>
 <div class="row" style="margin-left: 1px;">
 

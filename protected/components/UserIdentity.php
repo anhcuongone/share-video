@@ -19,7 +19,7 @@ class UserIdentity extends CUserIdentity
 	private $_id;
 	public function authenticate()
 	{
-	    $record=Users::model()->findByAttributes(array('username'=>$this->username));
+		$record=Users::model()->findByAttributes(array('username'=>$this->username));
 	    //print_r($record); exit();
 	    if($record===null)
 	    {
