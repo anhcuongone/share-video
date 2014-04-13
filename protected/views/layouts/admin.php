@@ -95,25 +95,22 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="index.html">User</a>
+                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin/users/index">Users Management</a>
                     </li>
                     <li>
-                        <a href="#">Charts</span></a>
+                        <a href="<?php echo Yii::app()->request->baseUrl; ?>/admin/video/index">Roles Management</span></a>
                     </li>
                     <li>
-                        <a href="tables.html">Tables</a>
+                        <a href="#">Video Management</a>
                     </li>
                     <li>
-                        <a href="forms.html"></i> Forms</a>
+                        <a href="#">Video Url Management</a>
                     </li>
                     <li>
-                        <a href="#">UI Elements</span></a>
+                        <a href="#">Comment Management</span></a>
                     </li>
                     <li>
-                        <a href="#">Multi-Level Dropdown</span></a>
-                    </li>
-                    <li>
-                        <a href="#">Sample Pages</span></a>
+                        <a href="#">Advertisement Management</span></a>
                     </li>
                 </ul>
                 <!-- /#side-menu -->

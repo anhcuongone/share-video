@@ -14148,3 +14148,36 @@ Stack trace:
 REQUEST_URI=/share-video.com/admin/users/[%7B%22id%22:%221%22,%22username%22:%22admin%22,%22password%22:%2221OZ4//WxREgV.%22,%22role%22:%221%22,%22created%22:%222014-04-06%2019:41:51%22,%22modified%22:%222014-04-10%2007:08:35%22,%22active%22:%22Active%22,%22role_name%22:%22admin%22%7D]?_=1397125349543
 HTTP_REFERER=http://localhost/share-video.com/admin/users/index
 ---
+2014/04/10 17:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/ind...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/users/index.html
+HTTP_REFERER=http://localhost/share-video.com/admin/users/index
+---
+2014/04/10 17:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/ind...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/users/index.html
+HTTP_REFERER=http://localhost/share-video.com/admin/users/index
+---
+2014/04/10 17:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\share-video.com\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\share-video.com\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\share-video.com\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/users/ind...')
+#3 C:\xampp\htdocs\share-video.com\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\share-video.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/share-video.com/admin/users/index.html
+HTTP_REFERER=http://localhost/share-video.com/admin/users/index
+---

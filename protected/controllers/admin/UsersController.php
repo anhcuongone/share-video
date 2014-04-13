@@ -127,7 +127,7 @@ class UsersController extends Controller
             $error="Username is not empty. <br/>";
         }
 
-        if (!$_POST["password"]) {
+        if (!$_POST["password"]) { 
             $error.="Password is not empty. <br/>";
         }
 
@@ -135,11 +135,14 @@ class UsersController extends Controller
             $error.="Confirm password is not empty. <br/>";
         }
 
-         if ($_POST["confirmPassword"] != $_POST["password"]) {
-             echo "Confirm password is not equal. <br/>";
-             exit();
-         }
+        if ($_POST["confirmPassword"] != $_POST["password"]) {
+            $error.="Confirm password is not equal. <br/>";
+        }
 
+        if ($error!="") {
+            echo $error;
+            exit();
+        }
         if(isset($_POST['submit'])){
             $user->username=$_POST["username"];
             $user->password=crypt($_POST["password"],"21OZ4/WxREgV.");
@@ -149,10 +152,7 @@ class UsersController extends Controller
             $user->modified=date("Y-m-d H:i:s");
             if($user->validate() && $user->save()){
                 echo "Save successfuly";
-            }
-            else{
-                echo $error;
-            }      
+            }   
         }  
         //$this->renderPartial("index",array("user"=>$user),true);
     }
