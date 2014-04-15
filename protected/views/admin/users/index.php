@@ -212,7 +212,7 @@
                     id: indexArray
                 },
                 success:function(data){
-                   
+                    $("#jqxgrid").jqxGrid('clearselection');
                     $("#jqxgrid").jqxGrid('updatebounddata');
                 },
                 error: function (error) {

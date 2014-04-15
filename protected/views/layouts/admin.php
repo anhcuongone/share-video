@@ -37,7 +37,7 @@
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxdropdownlist.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxvalidator.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxwindow.js"></script>
-
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jqwidgets/jqxgrid.columnsresize.js"></script>
 
     <!--
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.10.2.js"></script>
