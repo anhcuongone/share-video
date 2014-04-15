@@ -67,4 +67,3 @@
         <div id="jqxgrid"></div>
     </div>
 </div>
-	
