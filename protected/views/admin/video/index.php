@@ -30,6 +30,8 @@
 	        pagesizeoptions: ['10', '20', '30', '40', '50'],
 	        selectionmode: 'checkbox',
 	        rowsheight: 90,
+	        autorowheight: true,
+	        altrows: true,
 	        columns:[
 	        	{text: "ID", datafield: "video_id", width: 20},
 	        	{text: "Title", datafield: "video_title", width: 150},
