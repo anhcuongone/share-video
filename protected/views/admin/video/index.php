@@ -41,14 +41,6 @@
 	        	},
 	        	{text: "View", datafield: "video_total_view", width: 70},
 	        	{text: "Active", datafield: "video_active", width: 50},
-	        	{text: 'Edit', datafield: 'Edit',columntype: 'button', width: 80, cellsrenderer:function(){
-	        		return "Edit";
-	        		},
-	        	},
-	        	{text: 'Delete', datafield: 'Delete',columntype: 'button', width: 80, cellsrenderer:function(){
-	        		return "Delete";
-	        		},
-	        	},
 	        ],
 		});
 	});
