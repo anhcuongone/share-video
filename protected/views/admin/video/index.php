@@ -35,8 +35,8 @@
 	        	{text: "Description",datafield: "video_description", width: 250},
 	        	{text: "Create Date", datafield: "video_date_create", width: 150, cellsformat: 'dd-MM-yyyy h:mm:ss tt'},
 	        	{text: "Image", datafield: "video_image", width: 100, height: 200, cellsrenderer: function(row){
-	        		
-	        		return '<img style="margin-left: 5px;" height="60" width="50" src="<?php echo Yii::app()->request->baseUrl; ?>/images/' + '10-20.jpg' + '"/>';
+	        		var dataRecord = $("#jqxgrid").jqxGrid('getrowdata', row); 
+	        		return '<img style="margin-left: 5px;" height="60" width="50" src="<?php echo Yii::app()->request->baseUrl; ?>/images/' + dataRecord.video_image + '"/>';
 	        		}
 	        	},
 	        	{text: "View", datafield: "video_total_view", width: 70},
