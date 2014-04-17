@@ -57,6 +57,32 @@
 </script>
 
 <script type="text/javascript">
+	jQuery(document).ready(function(){
+		$("#category-id-add").jqxInput({placeHolder: "Input your username", height: 35, width: 300, theme:'bootstrap'});
+		$("#title-add").jqxInput({placeHolder: "Input your username", height: 35, width: 300, theme:'bootstrap'});
+		$("#url-add").jqxInput({placeHolder: "Input your username", height: 35, width: 300, theme:'bootstrap'});
+		$("#description-add").jqxInput({placeHolder: "Input your username",  width: 300, theme:'bootstrap'});
+		$("#active-add").jqxInput({placeHolder: "Input your username", height: 35, width: 300, theme:'bootstrap'});
+		$("#Cancel-add").jqxButton({ width: '100', height:25, theme: 'ui-le-frog' });
+        $("#Save-add").jqxButton({ width: '100', height:25, theme: 'ui-le-frog' });
+
+		$("#popupWindow_add").jqxWindow({
+            width: 450, resizable: false,  isModal: true, autoOpen: false, cancelButton: $("#Cancel-add"), modalOpacity: 0.01,theme:'summer'     
+        });
+
+		$('#popupWindow_add').on('moving', function (event) { 
+			$('#popupWindow_add').jqxWindow('move', event.args.x, event.args.y);
+		})
+
+		$("#addNew").click(function(){
+	        $('#popupWindow_add').jqxWindow({ showAnimationDuration: 700 }); 
+	        $("#popupWindow_add").jqxWindow('open');
+	    });
+	});
+	
+</script>
+
+<script type="text/javascript">
 	var indexArray =new Array();
 	jQuery(document).ready(function($) {
 		$("#deleteAll").click(function(event) {
@@ -100,11 +126,14 @@
     </div>
 </div>
 
+<div style="position:fixed; right:35px; z-index:10000">
+    	<button type="button" class="btn btn-sm btn-primary" id="deleteAll">Delete</button>
+    	<button type="button" class="btn btn-sm btn-primary" id="Edit">Edit</button>
+    	<button type="button" class="btn btn-sm btn-primary" id="addNew">Add New</button>
+</div>
+
 <div class="row" style="margin-left: 1px;">
     <p>
-    	<button type="button" class="btn btn-sm btn-primary" id="deleteAll">Delete</button>
-    	<button type="button" class="btn btn-sm btn-primary" id="addNew">Edit</button>
-        <button type="button" class="btn btn-sm btn-primary" id="addNew">Add New</button>
         <span style="padding-left:50px;">
             <input type="text" name="txt-search" id="txt-search">
             <button type="button" class="btn btn-sm btn-primary" id="btn-search" value="Search">Search</button>
@@ -119,3 +148,50 @@
         <div id="jqxgrid"></div>
     </div>
 </div>
+
+<!-- Beign Form Add New -->
+<div id="popupWindow_add" style="position:fixed;">
+    <div>Add New</div>
+    <div style="overflow:hidden; ">
+        <table>
+            <tr>
+                <td><label>Category:<span style="color:red">*</span> </label></td>
+                <td><input type="text" name="category-id-add" id="category-id-add"></td>
+            </tr>
+
+            <tr>
+                <td><label>Title:<span style="color:red">*</span> </label></td>
+                <td><input type="text" name="title-add" id="title-add"></td>
+            </tr>
+
+            <tr>
+                <td><label>Url:<span style="color:red">*</span> </label></td>
+                <td><input type="text" name="url-add" id="url-add"></td>
+            </tr>
+
+            <tr>
+                <td><label>Active:<span style="color:red">*</span> </label></td>
+                <td><input type="text" name="active-add" id="active-add"></td>
+            </tr>
+
+            <tr>
+                <td><label>Description:<span style="color:red">*</span> </label></td>
+                <td>
+                	<textarea name="description-add"  id="description-add" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Image:<span style="color:red">*</span> </label></td>
+                <td><input type="file" name="image-add" id="image-add"></td>
+            </tr>
+          
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="button" value="Save" id="Save-add" name="Save-add">
+                    <input type="button" value="Cancel" id="Cancel-add">
+                </td>
+            </tr>
+        </table>
+    </div>    
+</div> <!-- End Form Add New -->
