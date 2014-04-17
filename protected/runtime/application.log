@@ -323,3 +323,113 @@ Stack trace:
 REQUEST_URI=/share-video/admin/video/deleteAll
 in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
 in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:13 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:13 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:13 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:13 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:13 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:14 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:14 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:14 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:14 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
+2014/04/17 16:40:14 [error] [php] Undefined index: id (C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\share-video\framework\web\CController.php(286): VideoController->runAction()
+#1 C:\xampp\htdocs\share-video\framework\web\CController.php(265): VideoController->runActionWithFilters()
+#2 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(282): VideoController->run()
+#3 C:\xampp\htdocs\share-video\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\share-video\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\share-video\index.php(13): CWebApplication->run()
+REQUEST_URI=/share-video/admin/video/deleteAll
+in C:\xampp\htdocs\share-video\protected\controllers\admin\VideoController.php (44)
+in C:\xampp\htdocs\share-video\index.php (13)
